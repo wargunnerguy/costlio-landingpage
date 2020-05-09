@@ -1,27 +1,46 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XM179FKE68"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-XM179FKE68');
     </script>
-    <title>costlio - veebileht soodsaks</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
-    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="vendors/aos/css/aos.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="shortcut icon" type="image/png" href="images/costlio.ico"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>costlio &mdash; veebileht soodsaks</title>
+    <meta name="description" content="Veebilehed soodsaks">
+    <meta name="keywords"
+          content="Veebilehed soodsaks">
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <link rel="stylesheet" href="assets/css/helpers.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/landing-2.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/costlio.ico"/>
 </head>
-<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -49,266 +68,642 @@
      logged_in_greeting="Tere, kuidas saame aidata? :)"
      logged_out_greeting="Tere, kuidas saame aidata? :)">
 </div>
-<header id="header-section">
-    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-        <div class="container">
-            <div class="navbar-brand-wrapper d-flex w-100">
-                <img src="images/costlio.svg" alt="">
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="mdi mdi-menu navbar-toggler-icon"></span>
-                </button>
+<!-- Facebook stuff end -->
+<nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+    <div class="container">
+        <div class="navbar-brand"></div>
+        <a href="index.html">
+            <img src="assets/images/costlio.svg" alt="">
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#probootstrap-navbar"
+                aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="ion-navicon"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="probootstrap-navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#section-home">Pealeht</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-features">Mida pakume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-reviews">Tehtud tööd</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-pricing">Hinnad</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-faq">KKK</a></li>
+                <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0">
+                    <a class="nav-link" href="#" target="_blank">
+                        <span class="pb_rounded-4 px-4">Kalkuleeri hinnavõit</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
+
+
+<section class="pb_cover_v3 overflow-hidden cover-bg-indigo cover-bg-opacity text-left pb_gradient_v1 pb_slant-light"
+         id="section-home">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-9">
+                <h2 class="heading mb-5">Teeme teie veebilehe kulud minimaalseks</h2>
+                <div class="sub-heading">
+                    <p class="mb-4">Teeme asjad lihtsaks. Enamus veebilehti maksab teenuste eest, mis on tasuta
+                        saadaval.</p>
+                    <p class="mb-5"><a class="btn btn-success btn-lg pb_btn-pill smoothscroll"
+                                       href="#section-pricing"><span
+                            class="pb_font-14 text-uppercase pb_letter-spacing-1">Uuri lähemalt</span></a></p>
+                </div>
             </div>
-            <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
-                <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
-                    <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
-                        <div class="navbar-collapse-logo">
-                            <img src="images/costlio.svg" alt="">
+            <div class="col-md-1">
+            </div>
+            <!--            <div class="col-md-5 relative align-self-center">-->
+
+            <!--                <form action="#" class="bg-white rounded pb_form_v1">-->
+            <!--                    <h2 class="mb-4 mt-0 text-center">Sign Up for Free</h2>-->
+            <!--                    <div class="form-group">-->
+            <!--                        <input type="text" class="form-control pb_height-50 reverse" placeholder="Full name">-->
+            <!--                    </div>-->
+            <!--                    <div class="form-group">-->
+            <!--                        <input type="text" class="form-control pb_height-50 reverse" placeholder="Email">-->
+            <!--                    </div>-->
+            <!--                    <div class="form-group">-->
+            <!--                        <input type="text" class="form-control pb_height-50 reverse" placeholder="Email">-->
+            <!--                    </div>-->
+            <!--                    <div class="form-group">-->
+            <!--                        <div class="pb_select-wrap">-->
+            <!--                            <select class="form-control pb_height-50 reverse">-->
+            <!--                                <option value="" selected>Type</option>-->
+            <!--                                <option value="">Basic</option>-->
+            <!--                                <option value="">Business</option>-->
+            <!--                                <option value="">Free</option>-->
+            <!--                            </select>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                    <div class="form-group">-->
+            <!--                        <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill  btn-shadow-blue"-->
+            <!--                               value="Register">-->
+            <!--                    </div>-->
+            <!--                </form>-->
+
+            <!--            </div>-->
+        </div>
+    </div>
+</section>
+<!-- END section -->
+
+<section class="pb_section bg-light pb_slant-white pb_pb-250" id="section-features">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6 text-center mb-5">
+                <h5 class="text-uppercase pb_font-15 mb-2 pb_color-dark-opacity-3 pb_letter-spacing-2">
+                    <strong>Meie</strong></h5>
+                <h2>Teenused</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-ios-email-outline pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Tasuta e-mail</strong></h5>
+                        <p class="text-sans-serif">Maksad siiani e-mailiteenuse kasutamise eest?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-cash pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Minimaalsed majutuskulud</strong></h5>
+                        <p class="text-sans-serif">Eemaldame kuni 100% majutuskuludest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-ios-search pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Veebileht kergelt leitavaks</strong></h5>
+                        <p class="text-sans-serif">Oled proovinud oma veebilehte googeldada, aga pole kergelt
+                            leitav?.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-iphone pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Mobiilseadmetel kuvatav leht</strong></h5>
+                        <p class="text-sans-serif">Suurem osa inimesi näeb teie lehte läbi telefoni brauseri, kuidas
+                            teie veebileht seal välja paistab?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-speedometer pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Veebilehe laadimise kiirendamine</strong></h5>
+                        <p class="text-sans-serif">53% külastajatest hülgab lehe, mille laadimiseks kulub üle 3 sekundi.
+                            Võtame ebavajalikud teenused ära, et kiirust tõsta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md- col-sm-6">
+                <div class="media d-block pb_feature-v1 text-left">
+                    <div class="pb_icon"><i class="ion-chatbubbles pb_icon-gradient"></i></div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-3 heading"><strong>Mitmekeelsed lehed</strong></h5>
+                        <p class="text-sans-serif">Kas olete mõelnud välisturgudele laieneda? Teeme teie veebilehe
+                            mitmekeelseks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END section -->
+
+<!--<section class="pb_section pb_slant-light">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-4 mb-5">-->
+<!--                <img src="assets/images/phone_3.png" alt="Image placeholder" class="img-fluid">-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 pl-md-5 pl-sm-0">-->
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
+<!--                        <h2>Application Features</h2>-->
+<!--                        <p class="pb_font-20">Far far away, behind the word mountains, far from the countries Vokalia-->
+<!--                            and Consonantia.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg">-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-bookmarks-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Minimal Design</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-infinite-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Unlimited Posibilities</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                    <div class="col-lg">-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-speedometer-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Fast Loading</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-color-filter-outline  pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Component Based Design</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- END section -->
+
+<!--<section class="pb_section bg-light pb_slant-white">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-4 order-2">-->
+<!--                <img src="assets/images/phone_3.png" alt="Image placeholder" class="img-fluid">-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 pr-md-5 pr-sm-0 order-1  mb-5">-->
+<!--                <div class="row">-->
+<!--                    <div class="col">-->
+<!--                        <h2>Application Features</h2>-->
+<!--                        <p class="pb_font-20">Far far away, behind the word mountains, far from the countries Vokalia-->
+<!--                            and Consonantia.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg">-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-bookmarks-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Minimal Design</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-infinite-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Unlimited Posibilities</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                    <div class="col-lg">-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-speedometer-outline pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Fast Loading</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                        <div class="media pb_feature-v2 text-left mb-1 mt-5">-->
+<!--                            <div class="pb_icon d-flex mr-3 align-self-start pb_w-15"><i-->
+<!--                                    class="ion-ios-color-filter-outline  pb_icon-gradient"></i></div>-->
+<!--                            <div class="media-body">-->
+<!--                                <h3 class="mt-2 mb-2 heading">Component Based Design</h3>-->
+<!--                                <p class="text-sans-serif pb_font-16">Far far away, behind the word mountains, far from-->
+<!--                                    the countries Vokalia and Consonantia.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- END section -->
+
+<!--<section class="pb_section pb_slant-light pb_pb-220" id="section-reviews">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center mb-1">-->
+<!--            <div class="col-md-6 text-center mb-5">-->
+<!--                <h5 class="text-uppercase pb_font-15 mb-2 pb_color-dark-opacity-3 pb_letter-spacing-2">-->
+<!--                    <strong>Reviews</strong></h5>-->
+<!--                <h2>Good Review From Good People</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md">-->
+<!--                <div class="pb_slide_testimonial_sync_v1">-->
+<!--                    <div class="pb_slider_content js-pb_slider_content2">-->
+<!--                        <div>-->
+<!--                            <div class="media d-block text-center testimonial_v1 pb_quote_v2">-->
+<!--                                <div class="media-body">-->
+<!--                                    <div class="quote">&ldquo;</div>-->
+<!--                                    <blockquote class="mb-5">Far far away, behind the word mountains, far from the-->
+<!--                                        countries Vokalia and Consonantia, there live the blind texts. Separated they-->
+<!--                                        live in Bookmarksgrove right at the coast of the Semantics, a large language-->
+<!--                                        ocean.-->
+<!--                                    </blockquote>-->
+<!--                                    <p>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-half text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-outline text-warning"></i>-->
+<!--                                    </p>-->
+<!--                                    <h3 class="heading">Garry Alexander</h3>-->
+<!--                                    <span class="subheading">@garry</span>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="media d-block text-center testimonial_v1 pb_quote_v2">-->
+<!--                                <div class="media-body">-->
+<!--                                    <div class="quote">&ldquo;</div>-->
+<!--                                    <blockquote class="mb-5">A small river named Duden flows by their place and supplies-->
+<!--                                        it with the necessary regelialia. It is a paradisematic country, in which-->
+<!--                                        roasted parts of sentences fly into your mouth.-->
+<!--                                    </blockquote>-->
+<!--                                    <p>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-half text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-outline text-warning"></i>-->
+<!--                                    </p>-->
+<!--                                    <h3 class="heading">Deborah Smith</h3>-->
+<!--                                    <span class="subheading">@deborah</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="media d-block text-center testimonial_v1 pb_quote_v2">-->
+<!--                                <div class="media-body">-->
+<!--                                    <div class="quote">&ldquo;</div>-->
+<!--                                    <blockquote class="mb-5">Even the all-powerful Pointing has no control about the-->
+<!--                                        blind texts it is an almost unorthographic life One day however a small line of-->
+<!--                                        blind text by the name of Lorem Ipsum decided to leave for the far World of-->
+<!--                                        Grammar.-->
+<!--                                    </blockquote>-->
+<!--                                    <p>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-half text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-outline text-warning"></i>-->
+<!--                                    </p>-->
+<!--                                    <h3 class="heading">James Robertson</h3>-->
+<!--                                    <span class="subheading">@james</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <div class="media d-block text-center testimonial_v1 pb_quote_v2">-->
+<!--                                <div class="media-body">-->
+<!--                                    <div class="quote">&ldquo;</div>-->
+<!--                                    <blockquote class="mb-5">The Big Oxmox advised her not to do so, because there were-->
+<!--                                        thousands of bad Commas, wild Question Marks and devious Semikoli, but the-->
+<!--                                        Little Blind Text didn’t listen. She packed her seven versalia, put her initial-->
+<!--                                        into the belt and made herself on the way.-->
+<!--                                    </blockquote>-->
+<!--                                    <p>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-half text-warning"></i>-->
+<!--                                        <i class="ion-ios-star-outline text-warning"></i>-->
+<!--                                    </p>-->
+<!--                                    <h3 class="heading">Marie Gibson</h3>-->
+<!--                                    <span class="subheading">@marie</span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-6 mx-auto">-->
+<!--                            <div class="pb_slider_nav js-pb_slider_nav2">-->
+<!--                                <div class="author">-->
+<!--                                    <img class="img-fluid rounded-circle" src="assets/images/person_1.jpg"-->
+<!--                                         alt="Generic placeholder image">-->
+<!--                                </div>-->
+<!--                                <div class="author">-->
+<!--                                    <img class="img-fluid rounded-circle" src="assets/images/person_5.jpg"-->
+<!--                                         alt="Generic placeholder image">-->
+<!--                                </div>-->
+<!--                                <div class="author">-->
+<!--                                    <img class="img-fluid rounded-circle" src="assets/images/person_2.jpg"-->
+<!--                                         alt="Generic placeholder image">-->
+<!--                                </div>-->
+<!--                                <div class="author">-->
+<!--                                    <img class="img-fluid rounded-circle" src="assets/images/person_6.jpg"-->
+<!--                                         alt="Generic placeholder image">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+<!--                &lt;!&ndash; END sync_v1 &ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- END section -->
+
+<!--<section class="pb_section bg-light pb_slant-white" id="section-pricing">-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center mb-5">-->
+<!--            <div class="col-md-6 text-center mb-5">-->
+<!--                <h5 class="text-uppercase pb_font-15 mb-2 pb_color-dark-opacity-3 pb_letter-spacing-2">-->
+<!--                    <strong>Pricing</strong></h5>-->
+<!--                <h2>Choose Your Plans</h2>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md">-->
+<!--                <div class="pb_pricing_v1 p-5 border text-center bg-white">-->
+<!--                    <h3>Basic</h3>-->
+<!--                    <span class="price"><sup>$</sup>19<span>month</span></span>-->
+<!--                    <p class="pb_font-15">Far far away, behind the word mountains, far from the countries Vokalia and-->
+<!--                        Consonantia, there live the blind texts</p>-->
+<!--                    <p class="mb-0"><a href="#" role="button" class="btn btn-secondary">Get started</a></p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md">-->
+<!--                <div class="pb_pricing_v1 p-5 border border-primary text-center bg-white">-->
+<!--                    <h3>Business</h3>-->
+<!--                    <span class="price"><sup>$</sup>39<span>month</span></span>-->
+<!--                    <p class="pb_font-15">Far far away, behind the word mountains, far from the countries Vokalia and-->
+<!--                        Consonantia, there live the blind texts</p>-->
+<!--                    <p class="mb-0"><a href="#" role="button" class="btn btn-primary btn-shadow-blue">Get started</a>-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md">-->
+<!--                <div class="pb_pricing_v1 p-5 border text-center bg-white">-->
+<!--                    <h3>Free</h3>-->
+<!--                    <span class="price"><sup>$</sup>99<span>month</span></span>-->
+<!--                    <p class="pb_font-15">Far far away, behind the word mountains, far from the countries Vokalia and-->
+<!--                        Consonantia, there live the blind texts</p>-->
+<!--                    <p class="mb-0"><a href="#" role="button" class="btn btn-secondary">Get started</a></p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!-- ENDs ection -->
+
+<section class="pb_section pb_slant-white" id="section-faq">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6 text-center mb-5">
+                <h5 class="text-uppercase pb_font-15 mb-2 pb_color-dark-opacity-3 pb_letter-spacing-2">
+                    <strong>KKK</strong></h5>
+                <h2>Korduma kippuvad küsimused</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div id="pb_faq" class="pb_accordion" data-children=".item">
+                    <div class="item">
+                        <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq1" aria-expanded="true"
+                           aria-controls="pb_faq1" class="pb_font-22 py-4">What is Instant?</a>
+                        <div id="pb_faq1" class="collapse show" role="tabpanel">
+                            <div class="py-3">
+                                <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right
+                                    at the coast of the Semantics, a large language ocean.</p>
+                            </div>
                         </div>
-                        <button class="navbar-toggler close-button" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-                        </button>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#header-section">Avaleht <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features-section">Kuidas?</a>
-                    </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="#feedback-section">Tehtud&nbsp;tööd</a>-->
-<!--                    </li>-->
-                    <!--          <li class="nav-item btn-contact-us pl-4 pl-lg-0">-->
-                    <!--            <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>-->
-                    <!--          </li>-->
+                    </div>
+                    <div class="item">
+                        <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq2" aria-expanded="false"
+                           aria-controls="pb_faq2" class="pb_font-22 py-4">Is this available to my country?</a>
+                        <div id="pb_faq2" class="collapse" role="tabpanel">
+                            <div class="py-3">
+                                <p>A small river named Duden flows by their place and supplies it with the necessary
+                                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                                    into your mouth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq3" aria-expanded="false"
+                           aria-controls="pb_faq3" class="pb_font-22 py-4">How do I use the features of Instant App?</a>
+                        <div id="pb_faq3" class="collapse" role="tabpanel">
+                            <div class="py-3">
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic life One day however a small line of blind text by the name of Lorem
+                                    Ipsum decided to leave for the far World of Grammar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq4" aria-expanded="false"
+                           aria-controls="pb_faq4" class="pb_font-22 py-4">How much do the Instant App cost?</a>
+                        <div id="pb_faq4" class="collapse" role="tabpanel">
+                            <div class="py-3">
+                                <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas,
+                                    wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+                                    She packed her seven versalia, put her initial into the belt and made herself on the
+                                    way.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq5" aria-expanded="false"
+                           aria-controls="pb_faq5" class="pb_font-22 py-4">I have technical problem, who do I email?</a>
+                        <div id="pb_faq5" class="collapse" role="tabpanel">
+                            <div class="py-3">
+                                <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came
+                                    from it would have been rewritten a thousand times and everything that was left from
+                                    its origin would be the word "and" and the Little Blind Text should turn around and
+                                    return to its own, safe country. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb_xl_py_cover overflow-hidden pb_slant-light pb_gradient_v1 cover-bg-opacity-8"
+         style="background-image: url(assets/images/1900x1200_img_5.jpg)">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-5 justify-content-center">
+                <h2 class="heading mb-5 pb_font-40">Join over 1M+ people who uses Instant App</h2>
+                <div class="sub-heading">
+                    <p class="mb-4">New free template by . For more templates visit. Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <form action="#" class="bg-white rounded pb_form_v1">
+                    <h2 class="mb-4 mt-0 text-center">Sign Up for Free</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control py-3 reverse" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control py-3 reverse" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control py-3 reverse" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <div class="pb_select-wrap">
+                            <select class="form-control pb_height-50 reverse">
+                                <option value="" selected>Type</option>
+                                <option value="">Basic</option>
+                                <option value="">Business</option>
+                                <option value="">Free</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill  btn-shadow-blue"
+                               value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END section -->
+
+<footer class="pb_footer bg-light" role="contentinfo">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/costlio/" class="p-2"><i
+                            class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/lifeofcostlio/" class="p-2"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/costlio/" class="p-2"><i
+                            class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/costlio/" class="p-2"><i
+                            class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-</header>
-<div class="banner">
-    <div class="container">
-        <h1 class="font-weight-semibold">Viime veebilehe kulud miinimumini.</h1>
-        <h6>
-            <a href="" class="font-weight-normal text-muted pb-3 typewrite" data-period="2000"
-               data-type='[ "Säästa kuni 94%", "Lihtsustame maailma.", "Eemaldame keerukused."]'>
-            </a>
-        </h6>
-        <!--      <div>-->
-        <!--        <button class="btn btn-opacity-light mr-1">Get started</button>-->
-        <!--        <button class="btn btn-opacity-success ml-1">Learn more</button>-->
-        <!--      </div>-->
-        <img src="images/Group171.svg" alt="" class="img-fluid">
-    </div>
-</div>
-<div class="content-wrapper">
-    <div class="container">
-        <section class="features-overview" id="features-section">
-            <div class="content-header">
-                <h2>Kuidas?</h2>
-                <h6 class="section-subtitle text-muted">Eemaldame ja asendame üleliigsed teenused ja kuluallikad</h6>
-            </div>
-            <div class="d-md-flex justify-content-between">
-                <div class="row">
-                    <div class="grid-margin d-flex col">
-                        <div class="features-width">
-                            <img src="images/Group5.svg" alt="" class="img-icons">
-                            <h5 class="py-3">Lihtsus</h5>
-                            <p class="text-muted">Teeme asjad lihtsamaks. Suurem osa veebilehti maksab veebiteenuste
-                                eest, mida neil pole vaja. </p>
-                        </div>
-                    </div>
-                    <div class="grid-margin d-flex col">
-                        <div class="features-width">
-                            <img src="images/Group7.svg" alt="" class="img-icons">
-                            <h5 class="py-3">Hind</h5>
-                            <p class="text-muted">Olenevalt teie veebilehest saame eemaldada kuni 100%
-                                majutuskuludest.</p>
-                        </div>
-                    </div>
-                    <div class="grid-margin d-flex col">
-                        <div class="features-width">
-                            <img src="images/Group12.svg" alt="" class="img-icons">
-                            <h5 class="py-3">Kiirus</h5>
-                            <p class="text-muted">53% külastajatest hülgab lehe, mille laadimiseks kulub üle 3 sekundi.
-                                Võtame ebavajalikud teenused ära, et kiirust tõsta</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="digital-marketing-service" id="digital-marketing-section">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-                    <h3 class="m-0">Lisaks pakume suures ulatuses<br>veebiarenduse ja -turunduse teenuseid!</h3>
-                    <div class="col-lg-7 col-xl-6 p-0">
-                        <p class="py-4 m-0 text-muted">Kohandame veebilehe kiiresti leitavaks ning silmi haaravaks ning
-                            loome kampaaniaid. Lisaks loome mänge ja muid rakendusi ning automatiseerime igapäevaseid
-                            tegevusi - näiteks failide kopeerimine, kirjade saatmine.</p>
-                        <p class="font-weight-medium text-muted">Mida kergemini leitav, seda rohkem kliente</p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
-                    <img src="images/Group1.png" alt="" class="img-fluid">
-                </div>
-            </div>
-        </section>
-        <section class="case-studies" id="case-studies-section">
-            <div class="row grid-margin">
-                <div class="col-12 text-center pb-5">
-                    <h2>Mida pakume?</h2>
-                    <!--            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>-->
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="card color-cards">
-                        <div class="card-body p-0">
-                            <div class="bg-warning text-center card-contents">
-                                <div class="card-image">
-                                    <img src="images/Group108.svg" class="case-studies-card-img" alt="">
-                                </div>
-                            </div>
-                            <div class="card-details text-center pt-4">
-                                <h6 class="m-0 pb-1">Veebiarendus</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="card color-cards">
-                        <div class="card-body p-0">
-                            <div class="bg-violet text-center card-contents">
-                                <div class="card-image">
-                                    <img src="images/Group126.svg" class="case-studies-card-img" alt="">
-                                </div>
-                            </div>
-                            <div class="card-details text-center pt-4">
-                                <h6 class="m-0 pb-1">Veebilehe tõlkimine</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
-                    <div class="card color-cards">
-                        <div class="card-body p-0">
-                            <div class="bg-success text-center card-contents">
-                                <div class="card-image">
-                                    <img src="images/Group115.svg" class="case-studies-card-img" alt="">
-                                </div>
-                            </div>
-                            <div class="card-details text-center pt-4">
-                                <h6 class="m-0 pb-1">Tarkvaraarendus</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
-                    <div class="card color-cards">
-                        <div class="card-body p-0">
-                            <div class="bg-primary text-center card-contents">
-                                <div class="card-image">
-                                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
-                                </div>
-                            </div>
-                            <div class="card-details text-center pt-4">
-                                <h6 class="m-0 pb-1">Online-Turundus</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact-us" id="contact-section">
-            <div class="contact-us-bgimage grid-margin">
-                <div class="pb-4">
-                    <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">On mingi projekt plaanis?</h4>
-                    <h4 class="pt-1" data-aos="fade-down">Võta ühendust</h4>
-                </div>
-                <div data-aos="fade-up">
-                    <button class="btn btn-rounded btn-outline-danger">Võta ühendust</button>
-                </div>
-            </div>
-        </section>
-        <section class="contact-details" id="contact-details-section">
-            <div class="row text-center text-md-left">
-                <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                    <img src="images/costlio.svg" alt="" class="pb-2">
-                    <div class="pt-2">
-                        <p class="text-muted m-0">costlioinc@gmail.com</p>
-                        <!--              <p class="text-muted m-0">906-179-8309</p>-->
-                    </div>
-                </div>
-                <!--          <div class="col-12 col-md-6 col-lg-3 grid-margin">-->
-                <!--            <h5 class="pb-2">Get in Touch</h5>-->
-                <!--            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>-->
-                <!--            <form>-->
-                <!--              <input type="text" class="form-control" id="Email" placeholder="Email id">-->
-                <!--            </form>-->
-                <!--            <div class="pt-3">-->
-                <!--              <button class="btn btn-dark">Subscribe</button>-->
-                <!--            </div>   -->
-                <!--          </div>-->
-                <!--          <div class="col-12 col-md-6 col-lg-3 grid-margin">-->
-                <!--            <h5 class="pb-2">Our Guidelines</h5>-->
-                <!--            <a href="#"><p class="m-0 pb-2">Terms</p></a>   -->
-                <!--            <a href="#" ><p class="m-0 pt-1 pb-2">Privacy policy</p></a> -->
-                <!--            <a href="#"><p class="m-0 pt-1 pb-2">Cookie Policy</p></a> -->
-                <!--            <a href="#"><p class="m-0 pt-1">Discover</p></a> -->
-                <!--          </div>-->
-                <div class="col-12 col-md-6 col-lg-3 grid-margin">
-                    <h5 class="pb-2">Kontakt</h5>
-                    <div class="d-flex justify-content-center justify-content-md-start">
-                        <a href="https://www.facebook.com/costlio/"><span class="mdi mdi-facebook"></span></a>
-                        <a href="https://twitter.com/lifeofcostlio/"><span class="mdi mdi-twitter"></span></a>
-                        <a href="https://www.instagram.com/costlio/"><span class="mdi mdi-instagram"></span></a>
-                        <a href="https://www.linkedin.com/company/costlio/"><span class="mdi mdi-linkedin"></span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="border-top">
-            <p class="text-center text-muted pt-4">&copy; 2019<script>new Date().getFullYear() > 2019 && document.write("-" + new Date().getFullYear());</script> costlio.
-            </p>
-        </footer>
-        <!-- Modal for Contact - us Button -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="Name">Name</label>
-                                <input type="text" class="form-control" id="Name" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="Email">Email</label>
-                                <input type="email" class="form-control" id="Email-1" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="Message">Message</label>
-                                <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-success">Submit</button>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col text-center">
+                <p class="text-center text-muted pt-4">&copy; 2019
+                    <script>new Date().getFullYear() > 2019 && document.write("-" + new Date().getFullYear());</script>
+                    Costlio.
+                </p>
             </div>
         </div>
     </div>
+</footer>
+
+<!-- loader -->
+<div id="pb_loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#1d82ff"/>
+    </svg>
 </div>
-<script src="vendors/jquery/jquery.min.js"></script>
-<script src="vendors/bootstrap/bootstrap.min.js"></script>
-<script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
-<script src="vendors/aos/js/aos.js"></script>
-<script src="js/landingpage.js"></script>
+
+
+<script src="assets/js/jquery.min.js"></script>
+
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
